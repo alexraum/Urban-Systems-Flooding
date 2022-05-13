@@ -28,7 +28,7 @@ MARK_SIZE = 150
 # create a figure and axes object
 fig, ax = plt.subplots(figsize = (WIDTH, HEIGHT))
 
-# read the data into a dataframe and index by PROPERTY_ID
+# read the data into a dataframe and index by PROPERTY_ID, store results in a data frame
 df = pd.read_csv('multivariate_control_data.csv', index_col = 'PROPERTY_ID', header = 0)
 
 # extract the response variable (percent change from median price)
