@@ -12,6 +12,7 @@ Created on Thu Oct 29 22:11:42 2020
 #       building process, and then use those to test model's accuracy on
 #       data it hasn't seen before
 
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,6 +22,9 @@ from sklearn import linear_model
 #from sklearn.linear_model import LogisticRegression
 #from sklearn import metrics
 import statsmodels.api as sm
+
+# set the working directory
+os.chdir("/home/michael/Documents/NCSU/CGA/projects/Urban-Systems-Flooding/data")
 
 # define macros
 NUM_OBS = 20
