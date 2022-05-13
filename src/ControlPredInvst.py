@@ -40,7 +40,7 @@ X = df['MONTHS_POST_FLOOD'].iloc[0:MONTHS]
 # grab the response variable for first observation
 avg_Y = np.array(Y.iloc[0:MONTHS])
 
-# define the number of iterations
+# dynamically define the number of iterations
 iters = int(len(Y) / len(avg_Y))
 
 # compute an element-wise average (grouped by property id) on each observation in the response column
@@ -55,7 +55,7 @@ for idx in range(1, iters):
 # scale the sum by the number of observations
 avg_Y /= NUM_OBS
     
-# do the same thing using a list comprehension
+# achieve the same result by using a list comprehension
 vals = [np.array(Y.iloc[i*MONTHS : (i + 1)*MONTHS]) for i in range(iters)]
 val_sum = sum(vals)
 
