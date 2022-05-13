@@ -5,9 +5,13 @@ Created on Fri Mar  5 00:25:55 2021
 @author: alex raum
 """
 
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+
+# set the working directory
+os.chdir("/home/michael/Documents/NCSU/CGA/projects/Urban-Systems-Flooding/data")
 
 # define macros
 HEIGHT = 10
