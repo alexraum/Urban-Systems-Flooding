@@ -20,8 +20,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # define macros
-HEIGHT = 10
-WIDTH = 14
+HEIGHT = 12
+WIDTH = 16
 MONTHS = 48
 NUM_OBS = 20
 POST_MATT = 23
