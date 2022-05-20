@@ -30,8 +30,8 @@ ID = 10001
 POST_MATT = 23
 POST_FLOR = 48
 MESH = 1000
-HEIGHT = 10
-WIDTH = 10
+HEIGHT = 12
+WIDTH = 12
 
 # create fig and ax objects
 fig, ax = plt.subplots(figsize=(WIDTH, HEIGHT))
