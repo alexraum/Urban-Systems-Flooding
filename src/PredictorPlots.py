@@ -118,7 +118,7 @@ plt.ylabel('Percentage Change From Median Price', size=LABEL_SIZE, color='k')
 plt.title('Average Percent Change From Median Price vs.\n Months Post Flood',
           size=TITLE_SIZE)
 plt.style.use('ggplot')
-plt.legend(facecolor='white', prop={'size': 20})
+plt.legend(facecolor='white', prop={'size': 22})
 plt.xticks(size=TICKS_SIZE)
 plt.yticks(size=TICKS_SIZE)
 plt.show()
