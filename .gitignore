@@ -1,7 +1,3 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-
-# poetry
-poetry.lock
-pyproject.toml
